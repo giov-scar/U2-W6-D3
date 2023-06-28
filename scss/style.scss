@@ -1,0 +1,41 @@
+@import './partials/reset';
+@import './partials/mixins';
+@import './partials/animation';
+@import './partials/button';
+@import './partials/color';
+@import './partials/font';
+@import './partials/spacing';
+
+
+
+
+ ul {
+    @include myul;
+}
+
+li{
+    margin-right: 50px;
+    cursor: pointer;
+    
+}
+
+nav p{
+    font-weight: 700;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.hero{
+    @include myflex;
+}
+.imgbox{
+    width: 50%;
+}
+.imgbox img{
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+$text-color: #f4f4f4;
+
+$button-primary: #0e6cff;
+$button-secondary: #ff8700;
+$button-tertiary: #4caf50;
+
+$bg-hero: #640fc5;
+
+header{
+    background-color: gray;
+}
+
+li{
+    color: $text-color;
+}
+
+.hero{
+    background-color: $bg-hero;
+
+    h1{
+        color: $text-color;
+        
+    }
+}
+
+.first{
+    background-color: $button-primary;
+    color: $text-color;
+}
+.second{
+    background-color: $button-secondary;
+    color: $text-color;
+}
+.third{
+    background-color: $button-tertiary;
+    color: $text-color;
+}
+
+
+
